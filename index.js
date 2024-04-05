@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import inquirer from "inquirer";
 let todo = [];
 let condition = true;
@@ -61,14 +62,13 @@ while (condition) {
         ;
     }
     else if (operations.action === "view list") {
-        console.log("your current list", todo);
-        console.log(todo.join("/n"));
+        console.log("your current list", todo)
     }
     else if (operations.action === "exit") {
-        condition = false;
-        console.log("exit");
+        condition = false
     }
     else {
         console.log("select valid value");
     }
 }
+;
