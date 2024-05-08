@@ -1,8 +1,9 @@
 {
-  "name": "mm53myy-todo-list-app-project",
-  "version": "1.0.0",
+  "name": "todo-list-app-project-malaika560-",
+  "version": "1.0.1",
   "description": "This is my to do list",
   "main": "index.js",
+  "publishConfig": {"access": "public"},
   "type": "module",
   "bin": "index.js",
   "scripts": {

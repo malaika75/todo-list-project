@@ -62,10 +62,10 @@ while (condition) {
         ;
     }
     else if (operations.action === "view list") {
-        console.log("your current list", todo)
+        console.log("your current list", todo);
     }
     else if (operations.action === "exit") {
-        condition = false
+        condition = false;
     }
     else {
         console.log("select valid value");
